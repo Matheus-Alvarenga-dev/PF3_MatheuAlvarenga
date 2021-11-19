@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poupança Simulador</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <main>
+      <div class="section">
+
+        <div class="title"> Poupança Simulador </div>
+
+        <div class="input">
+             <input placeholder="Qual é o seu nome ?" type="text" id='nome' required="required">
+        </div>
+
+        <div class="input">
+          <input placeholder="Qual será o valor aplicado mensalmente ? " type="number" id='mensal' required="required" >
+      </div>
+
+        <div class="input">
+            <input  placeholder="Qual será a taxa de juros ?"  type="number" id='juros'required="required">
+        </div>
+
+        <div class="input">
+            <input  placeholder="Qual será o número de parcelas mensais ?"  type="number" id='parcelas'required="required">
+        </div>
+        
+        <button id='calcular'>Calcular</button>
+
+        <div class="result" id='resultado'></div>
+
+        <footer> Atenção! O valor do juros mensal ja está sendo cauculado. </footer>  
+
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
